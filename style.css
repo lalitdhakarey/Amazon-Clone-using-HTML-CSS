@@ -1,0 +1,424 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: Arial;
+border: border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("images.png");
+    height: 50px;
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat; 
+    margin-top: 13px;
+}
+.add1{
+    font-size: 0.85rem;
+    color:gainsboro;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.add2{
+    margin-left: 3px;
+}
+.search{
+    width: 700px;
+    height: 60%;
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.searchicon{
+    height: 36px;
+    width: 50px;
+    color:black;
+    background-color: yellow;
+    border: none;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.searchselect{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    
+}
+.searchinsert{
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+}
+.hello{
+    font-size: 0.8rem;
+    color: gainsboro;
+}
+.accounts{
+    font-size: 0.9rem;
+}
+.return{
+    font-size: 0.8rem;
+    color: gainsboro;
+}
+.order{
+    font-size: 0.9rem;
+}
+.cart{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+.c{
+    margin-left: 4px;
+}
+.nav2{
+    background-color:#1c3a4c;
+    height: 40px;
+    width: 100%;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.a{
+    margin-left: 3.5px;
+    font-weight: 700;
+}
+.home{
+    width: 100%;
+    height: 725px;
+    background-color: rgb(88, 84, 84);
+}
+
+.homeimage{
+    background-image: url("homepage.jpg");
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+}
+.box{
+    background-color: rgb(222, 208, 208);
+    height: 380px;
+    width: 24%;
+   font-size: 1.2rem;
+   font-weight: bold; 
+    border:  1px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.appliances{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box1img{
+ width: 100%;
+ height: 80%;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.ac{
+    background-image: url(AC.jpg);
+}
+.refr{
+    background-image: url(refrigerator.jpg);
+}
+.washmachine{
+    background-image: url(washingmachine.jpg);
+}
+.microwave{
+    background-image: url(microwave.jpg);
+}
+.seemore{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 15px;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+.a{
+    width: 44%;
+    height: 38%;
+    border-radius: 2px;
+    border:0.8px solid #7b8e9b;
+}
+.revamp{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box2img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+   .cushion{
+    background-image: url(bedsheet.jpg);
+   }
+   .vases{
+    background-image: url(vases.jpg);
+   }
+   .homestore{
+    background-image: url(homestorage.jpg);
+   }
+   .lightning{
+    background-image: url(lightning.jpg);
+   }
+   .styles{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+   }
+   .box3img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+   .clothing{
+    background-image: url(clothing.jpg);
+   }
+   .handbag{
+    background-image: url(footwear.jpg);
+   }
+   .watch{
+    background-image: url(watches.jpg);
+   }
+   .jwell{
+    background-image: url(jwellery.jpg);
+   }
+   .brands{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+   }
+   .box4img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+   .bedsheet{
+    background-image: url(bedsheet.jpg);
+   }
+   .curtain{
+    background-image: url(curtains.jpg);
+   }
+   .board{
+    background-image: url(boards.jpg);
+   }
+   .decor{
+    background-image: url(homedecor.jpg);
+   }
+   .rectbox{
+    width: 100%;
+    height: 360px;
+    background-color: rgb(88, 84, 84);
+    justify-content: center;
+    display: flex;
+   }
+   .rectbox2{
+    width: 98.4%;
+    height: 96%;
+    background-color:rgb(222, 208, 208);
+    border-radius: 2px;
+    border: 1px solid black;
+   }
+   .deal{
+    height: 8%;
+    width: 100%;
+    font-size: 1.23rem;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 8px;
+   }
+ .rectimg{
+ height:225px;
+ width: 1490px; 
+ margin-top: 20px;
+ display: flex;
+
+ }
+ .iq{
+    background-image: url(iQOOZ95G.jpg);
+    margin-left: 10px;
+ }
+ .redmi{
+    background-image: url(Redmi125G.jpg);
+    margin-left: 10px;
+ }
+ .redmi2{
+    background-image: url(Redmi125G2.jpg);
+    margin-left: 10px;
+ }
+ .redmi13c{
+    background-image: url(Redmi13C.jpg);
+    margin-left: 10px;
+ }
+ .cloth{
+    background-image: url(clothes.jpg);
+    margin-left: 10px;
+ }
+ .iqz6{
+    background-image: url(Narzo.jpg);
+    margin-left: 10px;
+ }
+ .fitness{
+    background-image: url(fitness.jpg);
+    margin-left: 10px;
+    margin-right: 8px;
+ }
+ .b{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 100%;
+    width: 400px;   
+    background-repeat: no-repeat;
+    border-radius: 4px;
+ }
+ .text{
+    display: flex;
+   margin-top: 10px;
+   justify-content: space-around;
+ }
+ .c{
+    margin-left: 10px;
+    font-weight: 600;
+    margin-right: 65px;
+ }
+ .back{
+    width: 100%;
+    height: 50px;
+    background-color: #233e4f;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+ }
+ .footer{
+    width: 100%;
+    height: 280px;
+    background-color: #1f2e39;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    font-weight: 600;
+ }
+ .footer p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+ }
+ .f{
+    margin-top: 50px;
+ }
+ .f2{
+    width: 100%;
+    height: 90px;
+    background-color:#1f2e39 ;
+    border-top: 0.2px solid whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .amlogo{
+    height: 25px;
+    width: 80px;
+    background-image: url(images.png);
+    background-size: cover;
+ }
+ .lang{
+ color: whitesmoke;
+ border: 0.5px solid white;
+ height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2px;
+ }
+ .x{
+    display: flex;
+ }
+ .ind{
+    color: whitesmoke;
+ border: 0.5px solid white;
+ height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: 5px;
+ }
+ .f3{
+    width: 100%;
+    height: 120px;
+    background-color: #1c2323;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8rem;
+ }
+ .f4{
+    width: 100%;
+    height: 45px;
+    background-color: #1c2323;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 0.8rem;
+ }
+ 
